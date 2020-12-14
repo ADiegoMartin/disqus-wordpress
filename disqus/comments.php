@@ -3,7 +3,7 @@ if (DISQUS_DEBUG) {
     echo "<p><strong>Disqus Debug</strong> thread_id: ".get_post_meta($post->ID, 'dsq_thread_id', true)."</p>";
 }
 ?>
-
+//Esto es una prueba
 <div id="disqus_thread">
     <?php if (!get_option('disqus_disable_ssr') && have_comments()): ?>
         <div id="dsq-content">
